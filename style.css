@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Sans-serif, Arial, Helvetica;
+  background-color: white ;
+}
+
+.header-container{
+	background-color: #e5c399;
+
+}
+.navbar{
+	background-color: #e5c399;
+
+}
+.navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.nav-link {
+	color: #35200f;
+	font-style: italic;
+	font-size: 105%;	
+}
+
+#about{
+  min-height:500px;
+  width: 100%;
+  height: 400px;
+    background-image: url('latteart.jpg');
+    background-size: cover;
+  text-align:center;
+  border-top: 2px solid white;
+  color:#ffffff;
+}
+#about h1{
+	padding-top: 60px;
+	font-size: 80px;
+	color:#35200f;
+	padding-bottom: 0px;
+}
+ #about h3{
+ 	margin-top: 30px;
+ 	font-size: 40px;
+ 	color: #35200f;
+ }
+ #about p{
+ 	font-size:17px;
+ }
+.row{
+	padding-top: 35px;
+	
+}
+#meniu{
+	padding-top: 30px;
+}
+
+.coffeemeniu{
+	color:#ccac86;
+	text-transform: uppercase;
+}
+
+
+.col img{
+	border-radius: 50%;
+}
+
+li p{
+	color:#937958;
+	font-style: italic;
+}
+
+footer{
+	padding:20px;
+  	color:#35200f ;
+  	background-color:#e5c399;
+  	text-align: center;	
+
+}
+/****Overlay effects****/
+
+.container-image {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.container-image:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.last-image{
+	width: 400px;
+}
+
+/* ****CONTACT**** */
+ .contactus{
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	color: #4f3624;
+ }
+ th {
+    background-color: #4f3624;
+    color: white;
+
+}
+ tr{
+ 	color:white;
+ 	font-weight: bold; 
+ }
+table{
+	table-layout: auto; 
+	width: 100%;
+}
+.container{
+	padding-bottom: 20px;
+}
+#map{
+	width:100%;
+	padding-top: 20px;
+}
+#facebook{
+	text-align:center;
+}
+.row1{
+	padding-bottom:20px;
+}
+
+/* ****LOCATII****/
+
+.container-locatii {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 16px;
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #e5c399;
+}
+.bg-img{
+  background-image: url("latteart.jpg");
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 2px solid white;
+}
+
+
+a:hover {
+	color: #635b4e;
+}
+
+
+
+	
+
+
